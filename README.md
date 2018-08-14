@@ -1,5 +1,5 @@
 # The_Spartans
-Implementation of a interactive module for agriculturists
+Implementation of an interactive module for agriculturists
 
 This is the implementation of a module, to interact with a user, to actively reply to their queries, from a set of questions provided in the database in a particular topic.
 This module has been specifically designed to respond to the general queries about a tomato plant.
