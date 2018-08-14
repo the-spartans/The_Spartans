@@ -5,10 +5,11 @@ import os
 bot=ChatBot('Bot')
 bot.set_trainer(ListTrainer)
 
-for files in os.listdir('C:/Users/USER\Desktop\cb\chatterbot-corpus-master\chatterbot_corpus\data\english/'):
-    data = open('C:/Users/USER\Desktop\cb\chatterbot-corpus-master\chatterbot_corpus\data\english/' + files ,'r').readlines()
+for files in os.listdir('github.com/the-spartans/The_Spartans/tree/master/.gitignore/'):
+    data = open('github.com/the-spartans/The_Spartans/tree/master/.gitignore/' + files ,'r').readlines()
     bot.train(data)
-
+print('hi, ask me anything about growing tomato plants (length, width and colour of leaves; height of plant; suitable soil; diseases)')
+print('if you are done, say "Bye".')
 while True:
         message = input('You :')
         if message.strip()!= 'Bye':
