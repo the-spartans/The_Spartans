@@ -16,3 +16,10 @@ Database is extracted from the files and the bot is trained with the datasets.
 The module reads the user input and stores it, if it is not the terminator phrase it continues. 
 Then the appropriate response is predicted and printed as the chatbot output.
 This loop continues till the terminator phrase is read as input.
+
+NOTE:
+The location of the datasets,given in the program,has to be changed while runing the program in someother platform(Python).
+(i.e)the datasets in the location https://github.com/the-spartans/The_Spartans/tree/master/.gitignore ,has to be downloaded ,and the downloaded location of the training datasets should be given in the program.
+EXAMPLE:
+(for files in os.listdir('C:/Users/USER\Desktop/ff/The_Spartans-master/.gitignore/'):
+    data = open('C:/Users/USER\Desktop/ff/The_Spartans-master/.gitignore/' + files ,'r').readlines() )
